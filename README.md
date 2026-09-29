@@ -22,6 +22,9 @@ El sistema permite consultar el stock disponible y descontar unidades, mantenien
 
 ![Gestión de inventario](evidencias-examen/examen-interfaz-inventario.png)
 
+## Mi participación
+
+El proyecto fue desarrollado de manera individual, abarcando el análisis del proceso de negocio, modelado BPMN, desarrollo de la API REST, persistencia de datos, interfaz web, integración con Flowable, External Workers, pruebas, documentación y control de versiones con Git y GitHub.
 
 ## Valor del producto
 
@@ -44,6 +47,14 @@ La solución se compone de:
 3. **Base de datos:** H2 persistente en archivo mediante Spring Data JPA.
 4. **Proceso BPMN:** modelo TO-BE desplegado y ejecutado en Flowable.
 5. **External Workers:** integración entre las tareas automáticas del BPMN y la API REST.
+
+### Flujo general de la solución
+
+El funcionamiento integra las distintas capas de la aplicación de la siguiente manera:
+
+**Interfaz web → API REST → Base de datos H2**
+
+El proceso de negocio se modela mediante **BPMN en Flowable**, mientras que los **External Workers** permiten conectar las tareas automáticas del proceso con los servicios de la API REST.
 
 ## Requisitos
 
