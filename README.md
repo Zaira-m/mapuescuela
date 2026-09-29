@@ -70,9 +70,9 @@ No es necesario instalar Maven: el repositorio incluye Maven Wrapper.
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/Zaira-m/mapuescuela-evaluacion1.git
-cd mapuescuela-evaluacion1
-git checkout examen
+git clone https://github.com/Zaira-m/mapuescuela.git
+cd mapuescuela
+git checkout portfolio
 ```
 
 ### 2. Ejecutar las pruebas
