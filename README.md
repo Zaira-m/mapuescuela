@@ -1,6 +1,27 @@
-﻿# Mapuescuela - Integración de Plataformas
+﻿# Mapuescuela
 
-Producto Mínimo Viable desarrollado para la asignatura **Integración de Plataformas**. La solución digitaliza la gestión de ventas de Mapuescuela mediante una interfaz web, servicios REST, persistencia H2 y un proceso BPMN ejecutable en Flowable.
+### Sistema web para gestión y automatización de pedidos
+
+Mapuescuela es una solución web desarrollada para digitalizar y automatizar la gestión de pedidos, pagos, inventario, retiros y despachos de un emprendimiento.
+
+El proyecto integra una interfaz web con una API REST desarrollada en Java y Spring Boot, persistencia de datos mediante H2 y Spring Data JPA, y automatización de procesos de negocio mediante BPMN y Flowable.
+
+> Proyecto desarrollado de manera individual como parte de la asignatura Integración de Plataformas.
+
+## Vista del sistema
+
+### Gestión de pedidos
+
+La aplicación permite consultar pedidos y gestionar su ciclo de atención, incluyendo aprobación o rechazo de pagos, retiro, despacho y cancelación.
+
+![Gestión de pedidos](evidencias-examen/examen-interfaz-pulida-persistencia.png)
+
+### Gestión de inventario
+
+El sistema permite consultar el stock disponible y descontar unidades, manteniendo la información mediante persistencia en base de datos H2.
+
+![Gestión de inventario](evidencias-examen/examen-interfaz-inventario.png)
+
 
 ## Valor del producto
 
